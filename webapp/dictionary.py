@@ -1,8 +1,10 @@
 import justpy as jp
 import definition
+
+from webapp import page
 from webapp import layout
 
-class DictionaryPage:
+class DictionaryPage(page.Page):
     '''Represents page which gvies a dictionary term for a word 
     user inputs in.
     '''

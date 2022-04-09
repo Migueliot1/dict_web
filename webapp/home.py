@@ -1,7 +1,9 @@
 import justpy as jp
+
+from webapp import page
 from webapp import layout
 
-class HomePage:
+class HomePage(page.Page):
     '''Represents Home page of the website.'''
     
     path = '/'

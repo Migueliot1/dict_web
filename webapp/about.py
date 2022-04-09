@@ -1,7 +1,9 @@
 import justpy as jp
+
+from webapp import page
 from webapp import layout
 
-class AboutPage:
+class AboutPage(page.Page):
     '''Represents About page which has a general info about the website 
     and its functionality.
     '''
